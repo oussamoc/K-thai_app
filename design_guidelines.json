@@ -1,0 +1,228 @@
+{
+  "project_name": "K-THAI — L'Asie dans l'assiette",
+  "app_type": "landing_page",
+  "language": "fr",
+  "archetype": "LUXURY_BLACK_AND_GOLD_THAI",
+  "theme": "dark",
+  "palette": {
+    "background": "#0A0A0B",
+    "surface": "#121214",
+    "surface_elevated": "#1A1A1E",
+    "border": "#27272A",
+    "border_gold": "rgba(212, 175, 55, 0.3)",
+    "primary_gold": "#D4AF37",
+    "accent_gold_bright": "#F3C649",
+    "accent_gold_light": "#F8E7A1",
+    "gold_gradient": "linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%)",
+    "text_primary": "#FAF9F5",
+    "text_secondary": "#A1A1AA",
+    "text_muted": "#71717A",
+    "badge_bg": "rgba(212, 175, 55, 0.12)",
+    "badge_border": "rgba(212, 175, 55, 0.3)"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond, serif",
+    "body_font": "Outfit, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]",
+    "h2_section": "text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight",
+    "h3_item": "text-xl sm:text-2xl font-medium",
+    "subtitle": "text-base sm:text-lg text-zinc-400 font-light max-w-2xl leading-relaxed",
+    "eyebrow": "uppercase tracking-[0.25em] text-xs font-semibold text-[#D4AF37]"
+  },
+  "restaurant_identity": {
+    "name": "K-THAI",
+    "tagline": "L'Asie dans l'assiette",
+    "address": "94 avenue Roul, 33400 Talence, France",
+    "phone": "05 57 93 91 46",
+    "phone_clean": "0557939146",
+    "hours": {
+      "lunch": "11h30 – 14h00",
+      "dinner": "19h00 – 21h30",
+      "days": "Du Lundi au Vendredi"
+    },
+    "service_modes": [
+      {
+        "title": "Sur place",
+        "desc": "Profitez de notre ambiance raffinée et chaleureuse en salle."
+      },
+      {
+        "title": "À emporter",
+        "desc": "Commandez par téléphone et récupérez votre repas chaud."
+      },
+      {
+        "title": "Livraison Gratuite",
+        "desc": "Livraison offerte dès 25€ d'achat (de 19h00 à 21h00)."
+      }
+    ]
+  },
+  "menu_data": {
+    "entrees": {
+      "category": "Entrées",
+      "flat_price": "4,00 €",
+      "subtitle": "Pour débuter votre voyage gustatif en douceur",
+      "items": [
+        {
+          "name": "Nems Poulet",
+          "desc": "Beignets croustillants dorés au poulet émincé et épices douces thaïlandaises",
+          "spicy_level": 0,
+          "tag": "Incontournable",
+          "price": "4,00 €"
+        },
+        {
+          "name": "Nems Légumes",
+          "desc": "Rouleaux croustillants garnis de julienne de légumes croquants et vermicelles",
+          "spicy_level": 0,
+          "tag": "Végétarien",
+          "price": "4,00 €"
+        },
+        {
+          "name": "Thaï Wings",
+          "desc": "Ailerons de poulet caramélisés à la sauce thaï aigre-douce et sésame grillé",
+          "spicy_level": 1,
+          "tag": "Coup de cœur",
+          "price": "4,00 €"
+        }
+      ]
+    },
+    "plats": {
+      "category": "Plats Principaux",
+      "standard_price": "13,50 €",
+      "veg_price": "12,00 €",
+      "subtitle": "Des saveurs authentiques sautées au wok et mijotées avec passion",
+      "items": [
+        {
+          "name": "Pad Thaï",
+          "desc": "Le chef-d'œuvre thaïlandais : nouilles de riz sautées aux crevettes juicy, œufs, cacahuètes pilées, pousses de soja et citron vert",
+          "price": "13,50 €",
+          "tag": "Plat Signature",
+          "hero_item": true
+        },
+        {
+          "name": "Bo Bun",
+          "desc": "Salade rafraîchissante de vermicelles de riz, nems croustillants, bœuf sauté, menthe fraîche et cacahuètes",
+          "price": "13,50 €",
+          "tag": "Populaire"
+        },
+        {
+          "name": "Bœuf Citronnelle",
+          "desc": "Émincé de bœuf tendre mariné à la citronnelle fraîche et ail, sauté minute au wok",
+          "price": "13,50 €",
+          "tag": "Parfumé"
+        },
+        {
+          "name": "Bœuf Loc Lac",
+          "desc": "Dés de bœuf tender sautés au wok avec sauce caramélisée, servis avec du riz rouge savoureux et œuf au plat",
+          "price": "13,50 €",
+          "tag": "Gourmand"
+        },
+        {
+          "name": "Crevettes Aigre-Douce",
+          "desc": "Crevettes royales sautées aux poivrons, ananas et sauce maison aigre-douce équilibrée",
+          "price": "13,50 €",
+          "tag": "Exotique"
+        },
+        {
+          "name": "Poulet Saté",
+          "desc": "Morceaux de poulet tendres mijotés dans une crème de cacahuètes parfumée et lait de coco",
+          "price": "13,50 €",
+          "tag": "Crémeux"
+        },
+        {
+          "name": "Poulet Noix de Cajou",
+          "desc": "Poulet sauté aux noix de cajou torréfiées, poivrons croquants et oignons doux",
+          "price": "13,50 €",
+          "tag": "Croquant"
+        },
+        {
+          "name": "Poulet Croustillant",
+          "desc": "Filet de poulet pané façon Thaï, croustillant à l'extérieur et moelleux à l'intérieur",
+          "price": "13,50 €",
+          "tag": "Gourmand"
+        },
+        {
+          "name": "Nouilles Chinoises",
+          "desc": "Nouilles sautées au wok garnies de légumes frais croquants et sauce soja aromatique",
+          "price": "13,50 €",
+          "tag": "Wok Classic"
+        },
+        {
+          "name": "Plat Végétarien",
+          "desc": "Sélection gourmande de tofu mariné et légumes de saison sautés à la sauce soja douce thaï",
+          "price": "12,00 €",
+          "tag": "Végétarien 12€"
+        }
+      ]
+    },
+    "desserts": {
+      "category": "Desserts",
+      "flat_price": "4,00 €",
+      "subtitle": "Une touche sucrée légère et tropicale",
+      "items": [
+        {
+          "name": "Salade de Fruits",
+          "desc": "Mélange rafraîchissant de fruits de saison gorgés de soleil",
+          "price": "4,00 €"
+        },
+        {
+          "name": "Ananas Frais",
+          "desc": "Tranches d'ananas frais juteuses et parfumées découpes façon chef",
+          "price": "4,00 €"
+        }
+      ]
+    },
+    "boissons": {
+      "category": "Boissons",
+      "subtitle": "Pour accompagner votre repas",
+      "items": [
+        {
+          "name": "Boissons Fraîches",
+          "desc": "Sodas, Thés glacés asiatiques, jus tropicaux au choix (33cl)",
+          "price": "2,00 €"
+        },
+        {
+          "name": "Eau Minérale / Gazeuse",
+          "desc": "Bouteille 50cl pure fraîcheur",
+          "price": "1,50 €"
+        }
+      ]
+    }
+  },
+  "image_urls": {
+    "hero_pad_thai": "https://images.unsplash.com/photo-1559314809-0d155014e29e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxwYWQlMjB0aGFpJTIwc2hyaW1wJTIwZ291cm1ldCUyMGFzaWFuJTIwZm9vZHxlbnwwfHx8fDE3ODg4MDIxNzR8MA&ixlib=rb-4.1.0&q=85",
+    "pad_thai_alt": "https://images.unsplash.com/photo-1742646803135-062f43c4e4ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw0fHxwYWQlMjB0aGFpJTIwc2hyaW1wJTIwZ291cm1ldCUyMGFzaWFuJTIwZm9vZHxlbnwwfHx8fDE3ODg4MDIxNzR8MA&ixlib=rb-4.1.0&q=85",
+    "nems_appetizer": "https://images.unsplash.com/photo-1695712641569-05eee7b37b6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxzcHJpbmclMjByb2xscyUyMGRpbSUyMHN1bSUyMGFzaWFuJTIwYXBwZXRpemVyc3xlbnwwfHx8fDE3ODg4MDIxNzR8MA&ixlib=rb-4.1.0&q=85",
+    "thai_wings": "https://images.pexels.com/photos/31552836/pexels-photo-31552836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "visual_enhancers": {
+    "gold_border_glow": "border border-[#D4AF37]/30 shadow-[0_0_25px_rgba(212,175,55,0.15)]",
+    "gold_text_gradient": "bg-gradient-to-r from-[#D4AF37] via-[#FCF6BA] to-[#AA771C] bg-clip-text text-transparent",
+    "glass_card": "backdrop-blur-xl bg-[#121214]/80 border border-[#27272A] rounded-2xl",
+    "gold_ornament_divider": "SVG Thai ornamental line divider with central lotus/star icon in metallic gold",
+    "marquee": "Slow drifting text strip in gold stroke font 'PAD THAI • BO BUN • BOEUF CITRONNELLE • THAÏ WINGS • NEMS MAISON • TALENCE'"
+  },
+  "key_features_to_build": [
+    "Fixed navigation with glassmorphism, glowing gold order badge, mobile sheet menu",
+    "Kinetic Hero section with masked title reveal, animated gold badges, hero dish image, quick phone call button",
+    "Editorial marquee ribbon drifting slowly across the screen",
+    "Manifesto/Concept Section: Numbered chapters highlighting 100% Wok cooking, Authentic Thai spices, Freshness",
+    "Interactive Menu showcase with tabs (Tous, Entrées, Plats, Desserts & Boissons), diet filters (Végétarien, Signature), and detailed modal/drawer preview",
+    "Infos Pratiques & Service Highlights (Sur place, À emporter, Livraison dès 25€)",
+    "Contact & Location section with stylized Google Maps iframe embed, interactive hours, and quick phone dialing CTA",
+    "Footer with full restaurant metadata, legal note, and back-to-top button"
+  ],
+  "instructions_to_main_agent": [
+    "Ensure ALL text interactive elements have explicit data-testid attributes.",
+    "Site must be 100% in French language as specified.",
+    "Do NOT build an online shopping cart or payment system; order calls must trigger standard tel: link to 0557939146.",
+    "Use framer-motion for smooth entrance reveals, food card hovers, tab switches, and mobile menu transitions.",
+    "Ensure dark theme elegance with high gold contrast readability.",
+    "Include clear call buttons for phone ordering in Header, Hero, Menu, and Sticky Mobile Bar."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "data_testid_requirement": "All interactive elements (buttons, nav links, phone links, tabs, cards) MUST contain data-testid attributes.",
+    "contrast_rule": "Ensure text over dark backgrounds maintains WCAG AA standard or APCA standards. Gold text on black should be bold or high contrast.",
+    "no_cart_flow": "Phone orders only. Clicking order triggers prompt modal or direct tel:0557939146 action.",
+    "responsive": "Fully responsive from mobile (320px) to desktop extra-wide (1920px)."
+  }
+}
