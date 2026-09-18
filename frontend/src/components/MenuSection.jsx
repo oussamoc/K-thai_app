@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 import { Eyebrow, Reveal } from "./Reveal";
 import { FORMULE, IMAGES, MENU, RESTAURANT } from "../data/menu";
 
-const TABS = [MENU.entrees, MENU.plats, MENU.desserts];
+const TABS = [MENU.entrees, MENU.plats, MENU.vegetarien, MENU.desserts];
 
 const Card = ({ item, index }) => (
     <motion.div

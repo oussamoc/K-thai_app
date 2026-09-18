@@ -18,6 +18,11 @@
 - Client local de Talence qui veut voir la carte et appeler pour commander
 - Client mobile qui veut appeler en un geste (barre d'appel sticky)
 
+## Implémenté (09/2026 — v3)
+- Nouvel onglet « Végétarien » regroupant : Plat Végétarien, Nems Légumes + versions végétariennes du Bo Bun, Pad Thaï et Nouilles Chinoises (validé par le client comme bonne idée)
+- Photos finales ajoutées : Poulet Croustillant et Poulet Saté — les 10 plats ont désormais leur photo maison
+- Reste sans photo : entrées (nems, wings) et desserts
+
 ## Implémenté (09/2026 — suite)
 - Formule « La Formule » à 19,00 € : 1 plat au choix + 1 boisson fraîche OU 1 dessert — carte dorée en tête de La Carte avec bouton d'appel
 - 3 nouvelles photos maison : Pad Thaï, Poulet Noix de Cajou, Nouilles Chinoises (WebP optimisées)
