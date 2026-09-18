@@ -77,6 +77,7 @@ export const MENU = {
                 desc: "Poulet sauté aux noix de cajou torréfiées, poivrons croquants et oignons doux",
                 tag: "Croquant",
                 price: "13,50 €",
+                image: "/images/dishes/poulet-noix-cajou.webp",
             },
             {
                 name: "Bœuf Citronnelle",
@@ -97,6 +98,7 @@ export const MENU = {
                 desc: "Nouilles sautées au wok, légumes croquants et sauce soja — au choix : bœuf, crevettes, poulet ou végétarien",
                 tag: "Wok Classic",
                 price: "13,50 €",
+                image: "/images/dishes/nouilles-chinoises.webp",
             },
             {
                 name: "Bo Bun",
@@ -118,6 +120,7 @@ export const MENU = {
                 tag: "Plat Signature",
                 price: "13,50 €",
                 featured: true,
+                image: "/images/dishes/pad-thai.webp",
             },
         ],
     },
@@ -152,6 +155,13 @@ export const MENU = {
             },
         ],
     },
+};
+
+export const FORMULE = {
+    title: "La Formule",
+    price: "19,00 €",
+    desc: "1 plat au choix parmi toute la carte + 1 boisson fraîche ou 1 dessert",
+    image: "/images/dishes/pad-thai.webp",
 };
 
 export const SERVICES = [

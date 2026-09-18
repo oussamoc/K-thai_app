@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Phone } from "lucide-react";
 import { Eyebrow, Reveal } from "./Reveal";
-import { IMAGES, MENU, RESTAURANT } from "../data/menu";
+import { FORMULE, IMAGES, MENU, RESTAURANT } from "../data/menu";
 
 const TABS = [MENU.entrees, MENU.plats, MENU.desserts];
 
@@ -73,6 +73,53 @@ export const MenuSection = () => {
                     <p className="mt-4 text-base text-zinc-400 font-light max-w-xl mx-auto">
                         Commandes uniquement par téléphone, préparées minute au wok.
                     </p>
+                </Reveal>
+
+                <Reveal delay={0.1} className="mt-12">
+                    <div
+                        data-testid="formule-card"
+                        className="relative overflow-hidden rounded-3xl border border-[#D4AF37]/50 shadow-[0_0_50px_rgba(212,175,55,0.18)]"
+                    >
+                        <img
+                            src={FORMULE.image}
+                            alt="Pad Thaï — formule K-THAI"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0B] via-[#0A0A0B]/85 to-[#0A0A0B]/40" />
+                        <div className="relative flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-10 px-8 sm:px-12 py-10">
+                            <div className="shrink-0 text-center sm:text-left">
+                                <p className="text-[11px] uppercase tracking-[0.3em] text-[#F3C649]">
+                                    {FORMULE.title}
+                                </p>
+                                <p className="mt-2 font-serif-display text-5xl sm:text-6xl font-bold gold-text">
+                                    {FORMULE.price}
+                                </p>
+                            </div>
+                            <div className="hidden sm:block h-16 w-px bg-[#D4AF37]/40" />
+                            <div className="flex-1">
+                                <p className="text-lg sm:text-xl text-zinc-100 font-medium leading-snug">
+                                    1 plat au choix dans toute la carte
+                                </p>
+                                <p className="mt-2 flex flex-wrap items-center gap-2 text-sm text-zinc-400">
+                                    <span className="rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/10 px-3 py-1 text-[#F3C649]">
+                                        + 1 boisson fraîche
+                                    </span>
+                                    <span className="text-zinc-500 uppercase text-xs tracking-widest">ou</span>
+                                    <span className="rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/10 px-3 py-1 text-[#F3C649]">
+                                        + 1 dessert
+                                    </span>
+                                </p>
+                            </div>
+                            <a
+                                href={`tel:${RESTAURANT.phoneClean}`}
+                                data-testid="formule-call-button"
+                                className="shrink-0 inline-flex items-center justify-center gap-2 rounded-full bg-[#D4AF37] px-6 py-3.5 text-sm font-bold text-black transition-all duration-300 hover:bg-[#F3C649] hover:shadow-[0_0_35px_rgba(212,175,55,0.45)]"
+                            >
+                                <Phone size={15} />
+                                Commander la formule
+                            </a>
+                        </div>
+                    </div>
                 </Reveal>
 
                 <Reveal delay={0.15} className="mt-12">
