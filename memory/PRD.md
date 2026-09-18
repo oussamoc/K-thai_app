@@ -18,6 +18,10 @@
 - Client local de Talence qui veut voir la carte et appeler pour commander
 - Client mobile qui veut appeler en un geste (barre d'appel sticky)
 
+## Implémenté (09/2026 — v4)
+- Photos entrées ajoutées (ordre client) : Nems Légumes, Nems Poulet, Thaï Wings — Nems Légumes aussi illustrés dans l'onglet Végétarien
+- Reste sans photo : desserts uniquement (salade de fruits, ananas frais)
+
 ## Implémenté (09/2026 — v3)
 - Nouvel onglet « Végétarien » regroupant : Plat Végétarien, Nems Légumes + versions végétariennes du Bo Bun, Pad Thaï et Nouilles Chinoises (validé par le client comme bonne idée)
 - Photos finales ajoutées : Poulet Croustillant et Poulet Saté — les 10 plats ont désormais leur photo maison
