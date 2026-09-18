@@ -13,28 +13,41 @@ const Card = ({ item, index }) => (
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -12 }}
         transition={{ duration: 0.5, delay: index * 0.05, ease: [0.16, 1, 0.3, 1] }}
-        className={`group relative flex flex-col justify-between rounded-2xl border p-6 transition-all duration-500 ${
+        className={`group relative flex flex-col rounded-2xl border overflow-hidden transition-all duration-500 ${
             item.featured
                 ? "border-[#D4AF37]/50 bg-gradient-to-b from-[#D4AF37]/10 to-transparent shadow-[0_0_40px_rgba(212,175,55,0.12)]"
                 : "border-zinc-800 bg-[#121214]/60 hover:border-[#D4AF37]/40 hover:bg-[#1A1A1E]"
         }`}
     >
-        <div>
-            <div className="flex items-start justify-between gap-4">
-                <h3 className="font-serif-display text-xl sm:text-2xl font-semibold text-zinc-50 leading-snug">
-                    {item.name}
-                </h3>
-                <span className="font-serif-display text-xl font-bold gold-text whitespace-nowrap">
-                    {item.price}
-                </span>
+        {item.image && (
+            <div className="relative h-44 overflow-hidden">
+                <img
+                    src={item.image}
+                    alt={item.name}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#121214] via-transparent to-transparent" />
             </div>
-            <p className="mt-3 text-sm text-zinc-400 font-light leading-relaxed">
-                {item.desc}
-            </p>
+        )}
+        <div className="flex flex-1 flex-col justify-between p-6">
+            <div>
+                <div className="flex items-start justify-between gap-4">
+                    <h3 className="font-serif-display text-xl sm:text-2xl font-semibold text-zinc-50 leading-snug">
+                        {item.name}
+                    </h3>
+                    <span className="font-serif-display text-xl font-bold gold-text whitespace-nowrap">
+                        {item.price}
+                    </span>
+                </div>
+                <p className="mt-3 text-sm text-zinc-400 font-light leading-relaxed">
+                    {item.desc}
+                </p>
+            </div>
+            <span className="mt-5 inline-flex w-fit rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-[#F3C649]">
+                {item.tag}
+            </span>
         </div>
-        <span className="mt-5 inline-flex w-fit rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-[#F3C649]">
-            {item.tag}
-        </span>
     </motion.div>
 );
 

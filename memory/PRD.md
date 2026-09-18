@@ -18,6 +18,12 @@
 - Client local de Talence qui veut voir la carte et appeler pour commander
 - Client mobile qui veut appeler en un geste (barre d'appel sticky)
 
+## Implémenté (09/2026)
+- Vraies photos du restaurant intégrées : Bœuf Loc Lac, Bœuf Citronnelle, Crevettes Aigre-Douce, Bo Bun, Plat Végétarien (optimisées WebP, /public/images/dishes/)
+- Ordre des plats selon la liste du client : Poulet Croustillant, Poulet Saté, Bœuf Loc Lac, Poulet Noix de Cajou, Bœuf Citronnelle, Crevettes Aigre-Douce, Nouilles Chinoises, Bo Bun, Plat Végétarien, Pad Thaï
+- Pad Thaï : mention « au choix bœuf, crevettes, poulet ou végétarien » ajoutée
+- Cartes du menu avec photo quand disponible (zoom au survol, fondu doré)
+
 ## Implémenté (07/2026)
 - Hero cinétique : révélation masquée ligne par ligne, image Pad Thaï en arche avec parallaxe, badges animés
 - Marquee éditorial lent (plats en contour doré)
