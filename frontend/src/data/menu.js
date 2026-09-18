@@ -181,12 +181,14 @@ export const MENU = {
                 desc: "Fruits de saison gorgés de soleil, fraîcheur légère",
                 tag: "Frais",
                 price: "4,00 €",
+                image: "/images/dishes/salade-de-fruits.webp",
             },
             {
                 name: "Ananas Frais",
                 desc: "Tranches d'ananas frais juteuses découpées façon chef",
                 tag: "Tropical",
                 price: "4,00 €",
+                image: "/images/dishes/ananas-frais.webp",
             },
             {
                 name: "Boissons Fraîches",

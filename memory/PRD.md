@@ -18,6 +18,9 @@
 - Client local de Talence qui veut voir la carte et appeler pour commander
 - Client mobile qui veut appeler en un geste (barre d'appel sticky)
 
+## Implémenté (09/2026 — v5)
+- Photos desserts ajoutées : Salade de Fruits, Ananas Frais — la carte est maintenant 100% illustrée avec les photos du restaurant
+
 ## Implémenté (09/2026 — v4)
 - Photos entrées ajoutées (ordre client) : Nems Légumes, Nems Poulet, Thaï Wings — Nems Légumes aussi illustrés dans l'onglet Végétarien
 - Reste sans photo : desserts uniquement (salade de fruits, ananas frais)
