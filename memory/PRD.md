@@ -18,6 +18,15 @@
 - Client local de Talence qui veut voir la carte et appeler pour commander
 - Client mobile qui veut appeler en un geste (barre d'appel sticky)
 
+## Implémenté (09/2026 — v6, correctifs client)
+- Hero : badges « Cuisine maison / Produits frais » supprimés, nouveau texte de présentation, vraie photo Pad Thaï maison avec mention « Plat signature — Pad Thaï » au-dessus, badges flottants supprimés
+- Concept : titre « Une cuisine traditionnelle et faite maison. », légende photo nems → « Des nems fraîchement roulés »
+- La Carte : nouveau sous-titre avec livraison gratuite dès 25 € ; Formule corrigée = 1 entrée + 1 plat + 1 boisson ou 1 dessert (19 €), encadrés retirés
+- Plats reclassés : Pad Thaï, Plat Végétarien, Crevettes Aigre-Douce, Bo Bun, Nouilles Chinoises, Bœuf Loc Lac, Bœuf Citronnelle, Poulet Croustillant, Poulet Saté, Poulet Noix de Cajou
+- Tags des cartes (Incontournable, Gourmand…) transformés en texte simple sans encadré ; tags « Boisson » supprimés ; « Eaux Minérales » au pluriel
+- Infos : nouveaux textes Sur place / À emporter / Livraison ; encadré « Livraison gratuite dès 25 € » supprimé (doublon)
+- Contact : encadré « Commandes par téléphone » supprimé, reste adresse + horaires + Google Maps
+
 ## Implémenté (09/2026 — v5)
 - Photos desserts ajoutées : Salade de Fruits, Ananas Frais — la carte est maintenant 100% illustrée avec les photos du restaurant
 

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Clock, MapPin, Phone } from "lucide-react";
-import { IMAGES, RESTAURANT } from "../data/menu";
+import { RESTAURANT } from "../data/menu";
 
 const MaskedLine = ({ children, delay }) => (
     <span className="block overflow-hidden pb-1">
@@ -42,20 +42,6 @@ export const Hero = () => {
 
             <div className="relative max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-14 lg:gap-8 items-center w-full">
                 <motion.div style={{ opacity: fade }}>
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.1 }}
-                        className="flex flex-wrap items-center gap-3 mb-8"
-                    >
-                        <span className="rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/10 px-4 py-1.5 text-[11px] uppercase tracking-[0.25em] text-[#F3C649]">
-                            Cuisine maison
-                        </span>
-                        <span className="rounded-full border border-zinc-700 px-4 py-1.5 text-[11px] uppercase tracking-[0.25em] text-zinc-400">
-                            Produits frais
-                        </span>
-                    </motion.div>
-
                     <h1 className="font-serif-display text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.02] tracking-tight">
                         <MaskedLine delay={0.25}>L'ASIE</MaskedLine>
                         <MaskedLine delay={0.4}>
@@ -71,9 +57,10 @@ export const Hero = () => {
                         transition={{ duration: 0.9, delay: 0.65 }}
                         className="mt-7 max-w-xl text-base sm:text-lg text-zinc-400 font-light leading-relaxed"
                     >
-                        Restaurant thaïlandais à Talence. Wok, citronnelle,
-                        lait de coco et basilic thaï — chaque plat est préparé
-                        minute, sur place, à emporter ou livré chez vous.
+                        K-Thaï, restaurant thaïlandais, vous propose une cuisine
+                        traditionnelle et à base de produits frais — chaque plat
+                        est préparé à la minute au Wok et peut être dégusté sur
+                        place, à emporter ou livré chez vous.
                     </motion.p>
 
                     <motion.div
@@ -123,32 +110,28 @@ export const Hero = () => {
                     transition={{ duration: 1.2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
                     className="relative mx-auto w-full max-w-md lg:max-w-none"
                 >
+                    <motion.div
+                        initial={{ opacity: 0, y: 12 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.9 }}
+                        className="mb-6 text-center"
+                    >
+                        <p className="text-[11px] uppercase tracking-[0.35em] text-zinc-500">
+                            Plat signature
+                        </p>
+                        <p className="mt-1 font-serif-display text-3xl gold-text font-semibold">
+                            Pad Thaï
+                        </p>
+                    </motion.div>
                     <div className="relative rounded-t-[999px] rounded-b-3xl border border-[#D4AF37]/30 p-3 shadow-[0_0_60px_rgba(212,175,55,0.15)]">
                         <div className="overflow-hidden rounded-t-[999px] rounded-b-2xl">
                             <motion.img
                                 style={{ y: imgY }}
-                                src={IMAGES.heroPadThai}
-                                alt="Pad Thaï aux crevettes, plat signature de K-THAI"
+                                src="/images/dishes/pad-thai.webp"
+                                alt="Pad Thaï, plat signature de K-THAI"
                                 data-testid="hero-dish-image"
                                 className="h-[420px] sm:h-[520px] lg:h-[560px] w-full object-cover scale-110"
                             />
-                        </div>
-                        <div className="absolute -left-4 bottom-10 rounded-2xl border border-[#D4AF37]/30 bg-[#121214]/90 backdrop-blur-md px-5 py-3 shadow-[0_0_30px_rgba(212,175,55,0.2)]">
-                            <p className="text-[10px] uppercase tracking-[0.25em] text-zinc-400">
-                                Plat signature
-                            </p>
-                            <p className="font-serif-display text-xl text-[#F3C649] font-semibold">
-                                Pad Thaï · 13,50 €
-                            </p>
-                        </div>
-                        <div className="absolute -right-3 top-16 rounded-full border border-[#D4AF37]/40 bg-[#0A0A0B]/90 backdrop-blur-md px-4 py-3 text-center">
-                            <p className="text-[10px] uppercase tracking-[0.2em] text-zinc-400 leading-tight">
-                                Livraison
-                                <br />
-                                <span className="text-[#F3C649] font-bold">gratuite</span>
-                                <br />
-                                dès 25 €
-                            </p>
                         </div>
                     </div>
                 </motion.div>

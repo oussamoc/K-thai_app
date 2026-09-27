@@ -1,4 +1,4 @@
-import { Clock, MapPin, Phone } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 import { Eyebrow, Reveal } from "./Reveal";
 import { RESTAURANT } from "../data/menu";
 
@@ -13,35 +13,18 @@ export const Contact = () => (
             </Reveal>
 
             <div className="mt-14 grid lg:grid-cols-[0.9fr_1.1fr] gap-6 items-stretch">
-                <Reveal delay={0.1} className="flex flex-col gap-5">
-                    <a
-                        href={`tel:${RESTAURANT.phoneClean}`}
-                        data-testid="contact-phone-card"
-                        className="group rounded-2xl border border-[#D4AF37]/40 bg-gradient-to-br from-[#D4AF37]/15 to-transparent p-8 transition-all duration-500 hover:shadow-[0_0_40px_rgba(212,175,55,0.2)]"
-                    >
-                        <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-zinc-400">
-                            <Phone size={14} className="text-[#D4AF37]" />
-                            Commandes par téléphone
-                        </div>
-                        <p className="mt-4 font-serif-display text-3xl sm:text-4xl font-bold gold-text transition-transform duration-300 group-hover:translate-x-1">
-                            {RESTAURANT.phone}
-                        </p>
-                        <p className="mt-2 text-sm text-zinc-500">
-                            Touchez pour appeler directement
-                        </p>
-                    </a>
-
-                    <div className="rounded-2xl border border-zinc-800 bg-[#121214]/70 p-8">
+                <Reveal delay={0.1}>
+                    <div className="h-full rounded-2xl border border-zinc-800 bg-[#121214]/70 p-8 sm:p-10">
                         <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-zinc-400">
                             <MapPin size={14} className="text-[#D4AF37]" />
                             Adresse
                         </div>
-                        <p className="mt-4 text-xl text-zinc-100 font-medium">
+                        <p className="mt-4 font-serif-display text-2xl sm:text-3xl text-zinc-50 font-semibold leading-snug">
                             {RESTAURANT.address}
                         </p>
-                        <div className="mt-6 flex items-start gap-3 text-sm text-zinc-400">
-                            <Clock size={14} className="mt-0.5 text-[#D4AF37] shrink-0" />
-                            <p>
+                        <div className="mt-8 flex items-start gap-3 text-sm sm:text-base text-zinc-400">
+                            <Clock size={15} className="mt-1 text-[#D4AF37] shrink-0" />
+                            <p className="leading-relaxed">
                                 Du lundi au vendredi
                                 <br />
                                 11h30 – 14h00 · 19h00 – 21h30

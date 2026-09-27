@@ -13,7 +13,7 @@ const CHAPTERS = [
         num: "02",
         icon: Flame,
         title: "Cuisine Maison au Wok",
-        desc: "Le wok ne s'arrête jamais. Chaque plat est saisi minute à feu vif pour conserver les textures et concentrer les saveurs.",
+        desc: "Le wok ne s'arrête jamais. Chaque plat est saisi à la minute et à feu vif pour conserver les textures et concentrer les saveurs.",
     },
     {
         num: "03",
@@ -31,9 +31,9 @@ export const Manifesto = () => (
                     <Reveal>
                         <Eyebrow>Le Concept</Eyebrow>
                         <h2 className="mt-5 font-serif-display text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight leading-tight">
-                            Une cuisine de marché,
+                            Une cuisine traditionnelle
                             <br />
-                            <span className="gold-text">un geste de chef.</span>
+                            <span className="gold-text">et faite maison.</span>
                         </h2>
                     </Reveal>
 
@@ -75,7 +75,7 @@ export const Manifesto = () => (
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                         <p className="absolute bottom-6 left-6 right-6 font-serif-display text-2xl italic text-zinc-100">
-                            « Chaque nem est roulé à la main, chaque matin. »
+                            Des nems fraîchement roulés
                         </p>
                     </div>
                 </Reveal>

@@ -44,9 +44,11 @@ const Card = ({ item, index }) => (
                     {item.desc}
                 </p>
             </div>
-            <span className="mt-5 inline-flex w-fit rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-[#F3C649]">
-                {item.tag}
-            </span>
+            {item.tag && (
+                <p className="mt-5 text-[10px] uppercase tracking-[0.25em] text-[#F3C649]/80">
+                    {item.tag}
+                </p>
+            )}
         </div>
     </motion.div>
 );
@@ -71,7 +73,8 @@ export const MenuSection = () => {
                         Des saveurs qui <span className="gold-text">voyagent</span>
                     </h2>
                     <p className="mt-4 text-base text-zinc-400 font-light max-w-xl mx-auto">
-                        Commandes uniquement par téléphone, préparées minute au wok.
+                        Des commandes uniquement par téléphone et préparées
+                        minute au wok. Livraison le soir gratuite dès 25 €.
                     </p>
                 </Reveal>
 
@@ -98,16 +101,10 @@ export const MenuSection = () => {
                             <div className="hidden sm:block h-16 w-px bg-[#D4AF37]/40" />
                             <div className="flex-1">
                                 <p className="text-lg sm:text-xl text-zinc-100 font-medium leading-snug">
-                                    1 plat au choix dans toute la carte
+                                    {FORMULE.line1}
                                 </p>
-                                <p className="mt-2 flex flex-wrap items-center gap-2 text-sm text-zinc-400">
-                                    <span className="rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/10 px-3 py-1 text-[#F3C649]">
-                                        + 1 boisson fraîche
-                                    </span>
-                                    <span className="text-zinc-500 uppercase text-xs tracking-widest">ou</span>
-                                    <span className="rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/10 px-3 py-1 text-[#F3C649]">
-                                        + 1 dessert
-                                    </span>
+                                <p className="mt-2 text-sm sm:text-base text-[#F3C649] tracking-wide">
+                                    {FORMULE.line2}
                                 </p>
                             </div>
                             <a
