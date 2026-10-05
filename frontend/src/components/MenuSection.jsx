@@ -90,20 +90,17 @@ export const MenuSection = () => {
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0B] via-[#0A0A0B]/85 to-[#0A0A0B]/40" />
                         <div className="relative flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-10 px-8 sm:px-12 py-10">
-                            <div className="shrink-0 text-center sm:text-left">
+                            <div className="flex-1 text-center">
                                 <p className="text-[11px] uppercase tracking-[0.3em] text-[#F3C649]">
                                     {FORMULE.title}
                                 </p>
                                 <p className="mt-2 font-serif-display text-5xl sm:text-6xl font-bold gold-text">
                                     {FORMULE.price}
                                 </p>
-                            </div>
-                            <div className="hidden sm:block h-16 w-px bg-[#D4AF37]/40" />
-                            <div className="flex-1">
-                                <p className="text-lg sm:text-xl text-zinc-100 font-medium leading-snug">
+                                <p className="mt-4 text-lg sm:text-xl text-zinc-100 font-medium leading-snug">
                                     {FORMULE.line1}
                                 </p>
-                                <p className="mt-2 text-sm sm:text-base text-[#F3C649] tracking-wide">
+                                <p className="mt-1.5 text-sm sm:text-base text-[#F3C649] tracking-wide">
                                     {FORMULE.line2}
                                 </p>
                             </div>

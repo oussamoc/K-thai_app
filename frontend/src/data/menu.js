@@ -17,7 +17,7 @@ export const FORMULE = {
     title: "La Formule",
     price: "19,00 €",
     line1: "1 entrée + 1 plat au choix",
-    line2: "+ 1 boisson fraîche ou 1 dessert",
+    line2: "+ 1 dessert ou 1 boisson fraîche",
     image: "/images/dishes/pad-thai.webp",
 };
 
@@ -65,7 +65,7 @@ export const MENU = {
             },
             {
                 name: "Plat Végétarien",
-                desc: "Tofu mariné et légumes de saison sautés à la sauce soja douce",
+                desc: "Légumes de saison sautés à la sauce soja douce",
                 tag: "Végétarien",
                 price: "12,00 €",
                 image: "/images/dishes/plat-vegetarien.webp",
@@ -107,7 +107,7 @@ export const MENU = {
             },
             {
                 name: "Poulet Croustillant",
-                desc: "Filet de poulet pané façon thaï, croustillant dehors, moelleux dedans",
+                desc: "Filet de poulet pané façon thaï, croustillant dehors, moelleux dedans, accompagné d'une sauce maison",
                 tag: "Gourmand",
                 price: "13,50 €",
                 image: "/images/dishes/poulet-croustillant.webp",
@@ -135,7 +135,7 @@ export const MENU = {
         items: [
             {
                 name: "Plat Végétarien",
-                desc: "Tofu mariné et légumes de saison sautés à la sauce soja douce",
+                desc: "Légumes de saison sautés à la sauce soja douce",
                 tag: "Végétarien",
                 price: "12,00 €",
                 image: "/images/dishes/plat-vegetarien.webp",

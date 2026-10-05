@@ -18,6 +18,12 @@
 - Client local de Talence qui veut voir la carte et appeler pour commander
 - Client mobile qui veut appeler en un geste (barre d'appel sticky)
 
+## Implémenté (10/2026 — v7, retouches client)
+- Hero : cadre de la photo Pad Thaï aligné sur le style du cadre des nems (rectangle arrondi doré)
+- Formule : texte recentré sous le prix, composition « 1 entrée + 1 plat au choix + 1 dessert ou 1 boisson fraîche »
+- Plat Végétarien : mention « tofu mariné » retirée
+- Poulet Croustillant : ajout « accompagné d'une sauce maison »
+
 ## Implémenté (09/2026 — v6, correctifs client)
 - Hero : badges « Cuisine maison / Produits frais » supprimés, nouveau texte de présentation, vraie photo Pad Thaï maison avec mention « Plat signature — Pad Thaï » au-dessus, badges flottants supprimés
 - Concept : titre « Une cuisine traditionnelle et faite maison. », légende photo nems → « Des nems fraîchement roulés »

@@ -123,16 +123,14 @@ export const Hero = () => {
                             Pad Thaï
                         </p>
                     </motion.div>
-                    <div className="relative rounded-t-[999px] rounded-b-3xl border border-[#D4AF37]/30 p-3 shadow-[0_0_60px_rgba(212,175,55,0.15)]">
-                        <div className="overflow-hidden rounded-t-[999px] rounded-b-2xl">
-                            <motion.img
-                                style={{ y: imgY }}
-                                src="/images/dishes/pad-thai.webp"
-                                alt="Pad Thaï, plat signature de K-THAI"
-                                data-testid="hero-dish-image"
-                                className="h-[420px] sm:h-[520px] lg:h-[560px] w-full object-cover scale-110"
-                            />
-                        </div>
+                    <div className="relative overflow-hidden rounded-3xl border border-[#D4AF37]/25 shadow-[0_0_50px_rgba(212,175,55,0.12)]">
+                        <motion.img
+                            style={{ y: imgY }}
+                            src="/images/dishes/pad-thai.webp"
+                            alt="Pad Thaï, plat signature de K-THAI"
+                            data-testid="hero-dish-image"
+                            className="h-[420px] sm:h-[520px] lg:h-[560px] w-full object-cover scale-110"
+                        />
                     </div>
                 </motion.div>
             </div>
