@@ -86,14 +86,14 @@ export const MENU = {
             },
             {
                 name: "Nouilles Chinoises",
-                desc: "Nouilles sautées au wok, légumes croquants et sauce soja — au choix : bœuf, crevettes, poulet ou végétarien",
+                desc: "Nouilles de blé sautées au wok, légumes croquants et sauce soja — au choix : bœuf, crevettes, poulet ou végétarien",
                 tag: "Wok Classic",
                 price: "13,50 €",
                 image: "/images/dishes/nouilles-chinoises.webp",
             },
             {
                 name: "Bœuf Loc Lac",
-                desc: "Dés de bœuf sautés sauce caramélisée, riz parfumé et crudités",
+                desc: "Émincé de bœuf sautés sauce caramélisée, riz parfumé et crudités",
                 tag: "Gourmand",
                 price: "13,50 €",
                 image: "/images/dishes/boeuf-loc-lac.webp",
@@ -163,7 +163,7 @@ export const MENU = {
             },
             {
                 name: "Nouilles Chinoises Végétariennes",
-                desc: "Nouilles sautées au wok, légumes croquants et sauce soja",
+                desc: "Nouilles de blé sautées au wok, légumes croquants et sauce soja",
                 tag: "Déclinable",
                 price: "13,50 €",
                 image: "/images/dishes/nouilles-chinoises.webp",
