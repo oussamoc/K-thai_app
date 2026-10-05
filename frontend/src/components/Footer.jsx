@@ -6,12 +6,12 @@ export const Footer = () => (
     <footer data-testid="main-footer" className="relative border-t border-[#D4AF37]/15 bg-[#08080A]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
             <div className="flex flex-col items-center text-center">
-                <p className="font-serif-display text-4xl font-bold gold-text">
-                    K-THAI
-                </p>
-                <p className="mt-2 text-[11px] uppercase tracking-[0.35em] text-zinc-500">
-                    {RESTAURANT.tagline}
-                </p>
+                <img
+                    src="/images/logo.webp"
+                    alt="K-THAI · cuisine maison"
+                    data-testid="footer-logo-image"
+                    className="h-24 sm:h-28 w-auto"
+                />
                 <Ornament className="mt-8 w-full max-w-sm" />
                 <p className="mt-8 font-serif-display text-xl italic text-zinc-300">
                     « Merci de votre confiance — K-Thaï vous souhaite un bon

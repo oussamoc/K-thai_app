@@ -30,13 +30,13 @@ export const Navbar = () => {
             }`}
         >
             <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 h-20">
-                <a href="#top" data-testid="nav-logo" className="flex items-baseline gap-2">
-                    <span className="font-serif-display text-3xl font-bold gold-text">
-                        K-THAI
-                    </span>
-                    <span className="hidden sm:block text-[10px] uppercase tracking-[0.3em] text-zinc-500">
-                        {RESTAURANT.tagline}
-                    </span>
+                <a href="#top" data-testid="nav-logo" className="flex items-center">
+                    <img
+                        src="/images/logo.webp"
+                        alt="K-THAI · cuisine maison"
+                        data-testid="nav-logo-image"
+                        className="h-12 sm:h-14 w-auto transition-transform duration-300 hover:scale-[1.03]"
+                    />
                 </a>
 
                 <div className="hidden md:flex items-center gap-8">

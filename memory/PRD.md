@@ -82,3 +82,8 @@
 ## Prochaines tâches
 - Recueillir les vraies photos du restaurant
 - Ajouter avis clients / note Google si fournie
+
+## Mise à jour — Logo officiel (juillet 2026)
+- Logo K-THAI fourni par l'utilisateur intégré : détouré (fond transparent), noir → blanc cassé pour lisibilité sur fond sombre, jaune/vert conservés. Fichier : `/app/frontend/public/images/logo.webp`.
+- Logo affiché dans la Navbar (`nav-logo-image`) et le Footer (`footer-logo-image`) à la place du texte "K-THAI".
+- Favicon généré à partir du bol du logo (`/app/frontend/public/favicon.ico` + `favicon.png`), lié dans `index.html`.
