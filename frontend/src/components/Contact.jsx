@@ -1,14 +1,20 @@
-import { Clock, MapPin } from "lucide-react";
+﻿import { Clock, MapPin, Phone } from "lucide-react";
 import { Eyebrow, Reveal } from "./Reveal";
 import { RESTAURANT } from "../data/menu";
 
 export const Contact = () => (
-    <section id="contact" data-testid="contact-section" className="relative py-28 lg:py-36">
+    <section
+        id="contact"
+        data-testid="contact-section"
+        className="relative py-28 lg:py-36"
+    >
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
             <Reveal>
                 <Eyebrow>Nous Trouver</Eyebrow>
+
                 <h2 className="mt-5 font-serif-display text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight">
-                    À deux pas de <span className="gold-text">chez vous</span>
+                    À deux pas de{" "}
+                    <span className="gold-text">chez vous</span>
                 </h2>
             </Reveal>
 
@@ -19,17 +25,31 @@ export const Contact = () => (
                             <MapPin size={14} className="text-[#D4AF37]" />
                             Adresse
                         </div>
+
                         <p className="mt-4 font-serif-display text-2xl sm:text-3xl text-zinc-50 font-semibold leading-snug">
                             {RESTAURANT.address}
                         </p>
+
                         <div className="mt-8 flex items-start gap-3 text-sm sm:text-base text-zinc-400">
-                            <Clock size={15} className="mt-1 text-[#D4AF37] shrink-0" />
+                            <Clock
+                                size={15}
+                                className="mt-1 text-[#D4AF37] shrink-0"
+                            />
+
                             <p className="leading-relaxed">
                                 Du lundi au vendredi
                                 <br />
                                 11h30 – 14h00 · 19h00 – 21h30
                             </p>
                         </div>
+
+                        <a
+                            href="tel:+33557939146"
+                            className="mt-8 inline-flex w-full items-center justify-center gap-3 rounded-xl bg-[#D4AF37] px-6 py-4 font-semibold text-black transition hover:scale-[1.02] hover:opacity-90"
+                        >
+                            <Phone size={18} />
+                            Appeler pour réserver
+                        </a>
                     </div>
                 </Reveal>
 
